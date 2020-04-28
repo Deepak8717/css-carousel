@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Carousel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <carousel>
+        <input type="radio" id="page1cb" checked name="pages"/>
+        <input type="radio" id="page2cb" checked name="pages"/>
+        <input type="radio" id="page3cb" checked name="pages"/>
+        <input type="radio" id="page4cb" checked name="pages"/>
+        <input type="radio" id="page5cb" checked name="pages"/>
+
+        <!--page 1-->
+        <page id="page1">
+            <div>Page One!</div>
+            <label for="page2cb" title="Start"><b>Start</b></label>
+        </page>
+        <!--page 2-->
+        <page id="page2">
+            <div>Page Two!</div>
+            <label for="page3cb" title="Next"><b>Next</b></label>
+        </page>
+        <!--page 3-->
+        <page id="page3">
+            <div>Page One!</div>
+            <label for="page4cb" title="Next"><b>Next</b></label>
+        </page>
+        <!--page 4-->
+        <page id="page4">
+            <div>Page One!</div>
+            <label for="page5cb" title="Next"><b>Next</b></label>
+        </page>
+        <!--page 5-->
+        <page id="page5">
+            <div>Page One!</div>
+            <label for="page1cb" title="Thats all folks!"><b>Start Again ?</b></label>
+        </page>
+    </carousel>
+</body>
+</html>
